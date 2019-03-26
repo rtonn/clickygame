@@ -71,7 +71,7 @@ render() {
       <Navbar 
         score={this.state.score}
       />
-      <Jumbotron   score={this.state.score}/>
+      <Jumbotron/>
     
       <div className="wrapper">     
         {this.state.pic.map(pic => (
