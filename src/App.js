@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
 import FriendCard from "./components/FriendCard";
 import pic from "./pic.json";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 
 //Setup Component & State.........................
@@ -71,8 +71,9 @@ render() {
       <Navbar 
         score={this.state.score}
       />
-      <Jumbotron />
-      <div className="wrapper">
+      <Jumbotron   score={this.state.score}/>
+    
+      <div className="wrapper">     
         {this.state.pic.map(pic => (
           <FriendCard
             imageClick={this.imageClick}
@@ -82,7 +83,7 @@ render() {
           />
         ))}
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

@@ -3,8 +3,9 @@ import "./components.css";
 
 const Footer = () => (
 	<header className = "footer">
-		<p>GAME BY KIM</p>
+		<p>Agate Clicking Game</p>
 	</header>
 );
+
 
 export default Footer;
