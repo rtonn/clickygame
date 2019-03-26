@@ -24,3 +24,4 @@ https://rtonn.github.io/clickygame/
 
 
 ### Screen Shot:
+![scrnshot1](https://user-images.githubusercontent.com/44482712/54971804-3e267400-4f56-11e9-86f8-dda987083622.png)
